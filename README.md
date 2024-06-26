@@ -1,4 +1,4 @@
-# online-banking  for DIGITALWITCHNG SUBSIDIARY
+# Online-banking  for DIGITALWITCHNG SUBSIDIARY
 This is a online banking system for local businesses. 
 DIGITALWITCHNG-BANK contains a user interface as well as a user authentication system <br><br>
 
