@@ -28,6 +28,13 @@ DIGITALWITCHNG-BANK contains a user interface as well as a user authentication s
 	GRANT ALL PRIVILEGES ON digitalwitchng-bank_2.* TO 'digitalwitchng-bank'@'localhost' IDENTIFIED BY 'digitalwitchng-bank';
     FLUSH PRIVILEGES;
 
+
+
+	CREATE USER 'digitalwitchng'@'%' IDENTIFIED VIA mysql_native_password USING '***';
+	GRANT ALL PRIVILEGES ON *.* TO 'digitalwitchng'@'%' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+	CREATE DATABASE IF NOT EXISTS `digitalwitchng`;
+	GRANT ALL PRIVILEGES ON `digitalwitchng`.* TO 'digitalwitchng'@'%';GRANT ALL PRIVILEGES ON `digitalwitchng\_%`.* TO 'digitalwitchng'@'%';
+
     ``` 
  
 

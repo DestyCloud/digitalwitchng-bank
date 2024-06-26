@@ -81,7 +81,7 @@ $pdf->GetPageHeight(); // Height of Current Page
 $image="logo_pdf.jpg";
 $pdf-> Image('images/'.$image,10,5,60,50);
 $pdf->SetFont('Arial','',20);
-$pdf->Cell(280,12,"Easy Bank: https://DigitalWitchng-Bank.com",0,0,TRUE);
+$pdf->Cell(280,12,"Easy Bank: https://DigitalWitchng.online",0,0,TRUE);
 $pdf->Ln();
 $pdf->Cell(280,12,"Country: Greece",0,0,TRUE);
 $pdf->Ln();

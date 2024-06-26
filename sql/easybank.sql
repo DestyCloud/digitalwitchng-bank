@@ -103,7 +103,7 @@ CREATE TABLE IF NOT EXISTS `customers` (
 -- Δομή πίνακα για τον πίνακα `digitalwitchng-bank_all_reserves`
 --
 
-CREATE TABLE IF NOT EXISTS `digitalwitchng-bank_all_reserves` (
+CREATE TABLE IF NOT EXISTS `digitalwitchng_all_reserves` (
   `EASY_BANK_ID` varchar(14) NOT NULL,
   `TOTAL_RESERVE` varchar(8) NOT NULL,
   UNIQUE KEY `easy_bank_ID` (`EASY_BANK_ID`)
@@ -115,7 +115,7 @@ CREATE TABLE IF NOT EXISTS `digitalwitchng-bank_all_reserves` (
 -- Δομή πίνακα για τον πίνακα `digitalwitchng-bank_reserve_currency`
 --
 
-CREATE TABLE IF NOT EXISTS `digitalwitchng-bank_reserve_currency` (
+CREATE TABLE IF NOT EXISTS `digitalwitchng_reserve_currency` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `date_transfer` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `_from_customer_lastname` varchar(64) NOT NULL,

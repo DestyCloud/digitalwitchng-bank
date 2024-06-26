@@ -155,7 +155,7 @@ if (time()-$_SESSION['timestamp']>$idletime)
 
 
 
-                       $sql4 = "insert into digitalwitchng-bank_reserve_currency
+                       $sql4 = "insert into digitalwitchng_reserve_currency
                                    (_from_customer_lastname, _from_customer_firstname, _from_customer_IBAN,
                                     _to_customer_lastname, _to_customer_firstname, _to_customer_IBAN,
                                     transaction_number, amount_reserve)
@@ -170,7 +170,7 @@ if (time()-$_SESSION['timestamp']>$idletime)
 
 
 
-                        $sql5 = "update digitalwitchng-bank_all_reserves 
+                        $sql5 = "update digitalwitchng_all_reserves 
                                  set TOTAL_RESERVE = TOTAL_RESERVE + '$amount_reserve'
                                  where EASY_BANK_ID = 'EASY_BANK_1410'";
                         $result5 = $conn->query($sql5);

@@ -31,18 +31,18 @@
  {
 
   $this->connect[0] = "localhost";
-  $this->connect[1] = "digitalwitchng-bank";
-  $this->connect[2] = "digitalwitchng-bank";
+  $this->connect[1] = "digitalwitchng";
+  $this->connect[2] = "digitalwitchng";
 
   $this->connect_db1[0] = "localhost";
-  $this->connect_db1[1] = "digitalwitchng-bank";
-  $this->connect_db1[2] = "digitalwitchng-bank";
-  $this->connect_db1[3] = "digitalwitchng-bank";
+  $this->connect_db1[1] = "digitalwitchng";
+  $this->connect_db1[2] = "digitalwitchng";
+  $this->connect_db1[3] = "digitalwitchng";
 
   $this->connect_db2[0] = "localhost";
-  $this->connect_db2[1] = "digitalwitchng-bank";
-  $this->connect_db2[2] = "digitalwitchng-bank";
-  $this->connect_db2[3] = "digitalwitchng-bank_2";
+  $this->connect_db2[1] = "digitalwitchng";
+  $this->connect_db2[2] = "digitalwitchng";
+  $this->connect_db2[3] = "digitalwitchng_2";
   
   }
 

@@ -29,9 +29,9 @@
  {
 
   $this->connect[0] = "localhost";
-  $this->connect[1] = "digitalwitchng-bank";
-  $this->connect[2] = "digitalwitchng-bank";
-  $this->connect[3] = "digitalwitchng-bank";
+  $this->connect[1] = "digitalwitchng";
+  $this->connect[2] = "digitalwitchng";
+  $this->connect[3] = "digitalwitchng";
   
   }
 

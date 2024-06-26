@@ -482,7 +482,7 @@ countdown( "countdown", 15, 0 );
 						</span>
 
 						<span class="txt3">
-						   DigitalWitchng-Bank@gmail.com
+						   support@digitalwitchng.online
 						</span>
 					</div>
 				</div>
