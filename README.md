@@ -15,7 +15,7 @@ DIGITALWITCHNG-BANK contains a user interface as well as a user authentication s
 
  a) Import the digitalwitchng-bank.sql file from sql folder in to your database <br><br><br>
      
-	 ```bash
+	```bash
      CREATE USER 'digitalwitchng-bank'@'localhost' IDENTIFIED BY 'digitalwitchng-bank';
      
 	 GRANT ALL PRIVILEGES ON digitalwitchng-bank.* TO 'digitalwitchng-bank'@'localhost' IDENTIFIED BY 'digitalwitchng-bank';
